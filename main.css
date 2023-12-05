@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+ width: 100%;
+ height: 100%;
+ margin: 0;
+}
+
+h1{
+    position: relative;
+    text-align: center;
+}
+
+nav ul{
+    text-align: right;
+    
+}
+
+nav ul li{
+    display: inline;
+
+}
+
+nav ul li a {
+    display: inline;
+    font-size: 20px;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+
+}
+
+section h2{
+    position: relative;
+    text-align: center;
+    top: 10px;
+
+}
+
+section {
+    width: 100%;
+    height: 25%;
+}
+
+.articles{
+    display: inline-flex;
+    width: 25%;
+    justify-content: left;
+
+}
+
+.articles img{
+    position: relative;
+    display: inline-block;
+    width: 360px;
+    height: 290px;
+    margin: 20px 5px 40px 5px;
+    align-items: center;
+   
+    
+}
+
+.articles h3{
+    align-items: center;
+}
+
+#Tecnologia{
+    background-color: coral;
+}
+
+#Economy{
+    background-color:darkseagreen;
+}
+
+#Entretenimento{
+    background-color:dimgrey
+}
+
+#Esportes{
+    background-color: mediumorchid;
+}
